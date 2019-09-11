@@ -1,0 +1,41 @@
+{
+  "name": "vue-ahoyjs",
+  "version": "1.0.0",
+  "description": "Ahoy.js <> Vue.js integration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnettome/vue-ahoyjs"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "node ./config/scripts/dev.js",
+    "build": "node ./config/scripts/build.js",
+    "prepublish": "node ./config/scripts/build.js",
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "jest --config ./jest.config.js --watch --verbose",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "Google",
+    "google",
+    "Google Analytics",
+    "google analytics",
+    "tracking",
+    "google tracking",
+    "vue-analytics",
+    "vue"
+  ],
+  "main": "dist/vue-analytics.js",
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "João Pedro Netto",
+    "email": "hi@joaonetto.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnettome/vue-ahoyjs/issues"
+  },
+  "homepage": "https://github.com/jnettome/vue-ahoyjs#readme"
+}
